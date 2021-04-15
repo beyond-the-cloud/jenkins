@@ -1,3 +1,4 @@
+```bash
 # #if [ -z '$(ls -A)' ]; then
 # #  rm -rf *
 # #fi
@@ -67,3 +68,4 @@
 # fi
 
 # rm -rf *
+```

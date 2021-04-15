@@ -1,3 +1,4 @@
+```bash
 if [ -z '$(ls -A)' ]; then
   rm -r *
 fi
@@ -72,3 +73,4 @@ else
     
     rm -r *
 fi
+```
