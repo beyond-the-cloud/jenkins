@@ -1,3 +1,4 @@
+```bash
 git remote rm origin
 git remote add origin https://beyond-the-cloud:${GITHUB_TOKEN}@github.com/beyond-the-cloud/helm-chart-efk.git
 git symbolic-ref HEAD refs/heads/master
@@ -28,3 +29,4 @@ git reset --hard HEAD
 git status
 
 npx release-it patch --ci --no-git.requireUpstream --no-git.requireCleanWorkingDir --github.release --github.releaseName="efk-v${NEW_VERSION}" --github.assets=efk-v${NEW_VERSION}.zip
+```

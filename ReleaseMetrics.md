@@ -1,3 +1,4 @@
+```bash
 helm lint ./metrics
 
 git remote rm origin
@@ -30,3 +31,4 @@ git reset --hard HEAD
 git status
 
 npx release-it patch --ci --no-git.requireUpstream --no-git.requireCleanWorkingDir --github.release --github.releaseName="metrics-v${NEW_VERSION}" --github.assets=metrics-v${NEW_VERSION}.zip
+```
